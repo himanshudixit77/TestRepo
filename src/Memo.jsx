@@ -75,7 +75,8 @@ export function Memo() {
                 {<Name prop="dixit" />}
                 {<Name prop="himanshu" />}
                 {<Name prop="j2" />}
-                {<Name prop="kanpur" />}
+                {<Name prop={title} />}
+                {<Name1 prop={title} />}
                 {/*<Name prop={TitleList}></Name><br></br>*/}
                 {/*<SurName surname={{ name: "mishra", age: 25 }}></SurName>*/}
             </div>
@@ -87,4 +88,8 @@ export function Memo() {
     
 const Name = memo(function Name({ prop }) {
     return <div>{ prop}</div>
+})
+
+const Name1 = memo(({ prop }) => {
+    return <>{ prop}</>
 })
