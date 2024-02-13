@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Header'
 import Memo from './Memo'
+import TodoTrail from './TodoTrail0802'
+import UseMemoFunc from './UseMemo'
 
 function App() {
  
 
   return (
     <>
-   <Memo></Memo>
+   <UseMemoFunc></UseMemoFunc>
     </>   
   )
 }
