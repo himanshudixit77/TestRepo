@@ -6,13 +6,14 @@ import Header from './Header'
 import Memo from './Memo'
 import TodoTrail from './TodoTrail0802'
 import UseMemoFunc from './UseMemo'
+import UseCallBackFunc from './UseCallBackFunc'
 
 function App() {
  
 
   return (
     <>
-   <UseMemoFunc></UseMemoFunc>
+   <UseCallBackFunc></UseCallBackFunc>
     </>   
   )
 }
